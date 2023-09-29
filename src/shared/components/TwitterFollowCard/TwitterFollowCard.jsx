@@ -37,7 +37,8 @@ export function TwitterFollowCard({name="Unknow", username="unknow", initialIsFo
             className={ btnClasName }
             onClick={ handleClick }
           > 
-            {followText} 
+            <span className="tw-followCard-followText"> {followText} </span> 
+            <span className="tw-followCard-stopFollow" > Dejar de seguir </span> 
           </button>
         </aside>
       </article>
