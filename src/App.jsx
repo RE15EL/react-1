@@ -49,7 +49,7 @@ export function App() {
             
         </section>
         <section className='card'>
-          <h1 className='title'>Tic-Tac-Toe</h1>
+          <h1 className='title'>Tic-Tac-Toe 👌👌</h1>
         </section>
       </>
     </div>
