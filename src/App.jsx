@@ -1,6 +1,7 @@
 import './App.css'
 import {TwitterFollowCard} from './shared/components/TwitterFollowCard/TwitterFollowCard.jsx'
 import { useState } from 'react';
+import confetti from 'canvas-confetti';
 
 
 //users API response
@@ -73,6 +74,8 @@ export function App() {
           boardToCheck[a] === boardToCheck[b] && 
           boardToCheck[a] === boardToCheck[c]
         ) {
+        //TODO: conffeti
+        confetti();
         return boardToCheck[a];
       }
     }
